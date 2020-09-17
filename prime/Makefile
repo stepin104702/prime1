@@ -1,6 +1,5 @@
 # Name of the project
-PROJECT_NAME = prime1
-
+PROJECT_NAME = prime
 # Output directory
 BUILD = build
 
@@ -10,7 +9,7 @@ src/prime.c\
 
 # All test source files
 TEST_SRC = src/prime.c\
-test/prime_test.c
+test/test_prime.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
